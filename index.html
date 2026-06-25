@@ -89,7 +89,7 @@ heartGroup.add(txtSprite);
 // photos
 const loader=new THREE.TextureLoader();
 const photos=[];
-for(let i=(1);i<=(35);i++){
+for(let i=1;i<=35;i++){
  const tex=loader.load(i + ".jpg");
  const mesh=new THREE.Mesh(
   new THREE.PlaneGeometry(80,100),
